@@ -1,0 +1,18 @@
+/*Per raggiungere una classe nel file html
+è necessario utilizzare il . davanti al nome
+di classe che è stato assegnato, come in questo
+esempio*/
+.titolo{
+    color: red;
+    font-size: 1.8rem;
+}
+
+/*Per raggiungere un id nel file html è 
+necessario utilizzare il # davanti al nome
+id che è stato assegnato, come in questo esempio
+*/
+
+#sottotitolo-1{
+    color: blue;
+    font-size: 1.2rem;
+}
