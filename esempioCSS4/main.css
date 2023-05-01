@@ -1,0 +1,41 @@
+.titolo
+{
+    background-color: red;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*dichiaro il contenitore facendo in modo che prenda tutta l'altezza disponibile (o quella desiderata) utilizzando i valori percentuali*/
+.contenitore
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+    /*assegno un padding per evitare sovrapposizioni*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.prima-colonna
+{
+    border: 1px solid blue;
+    display: inline-block;  /*lo dichiaro inline-block*/
+    width: 49%; /*solitamente non si utilizza la larghezza totale per evitare problemi di sovrapposizione
+     con altri elementi inline-block o a capo per aver sforato la dimensione orizzontale della pagina in
+     presenza di margini o padding*/
+    height: 100%;
+}
+
+.seconda-colonna
+{
+    border: 1px solid orange;
+    display: inline-block;  /*lo dichiaro inline-block*/
+    width: 49%; /*solitamente non si utilizza la larghezza totale per evitare problemi di sovrapposizione
+     con altri elementi inline-block o a capo per aver sforato la dimensione orizzontale della pagina in 
+     presenza di margini o padding*/
+    height: 100%;
+}
+

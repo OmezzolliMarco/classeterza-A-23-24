@@ -1,0 +1,32 @@
+/*grazie ai CSS è possibile posizionare gli elementi
+all'interno di una pagina specificando innanzitutto 
+le loro dimensioni in pixel o in percentuale*/
+.titolo{
+    border: 1px solid red; /*imposto un bordo di 1px rosso per l'elemento*/
+    background-color: red; /*imposto uno sfondo rosso all'elemento selezionato*/
+    width: 100%; /*dichiaro una larghezza pari al 100% del contenitore, quindi del tag body in questo caso*/
+    height: 150px; /*dichiaro un'altezza pari a 150px fissati per l'elemento*/
+
+    /*una volta dichiarate le dimensioni posso gestire gli elementi all'interno dichiarando un qualche tipo di
+    allineamento*/
+    text-align: center; /*allineo gli elementi testuali o i paragrafi al centro in orizzontale*/
+
+    /*utilizzando il padding posso cambiare la spaziatura interna degli elementi dai bordi dell'oggetto*/
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+/*Per raggiungere un id nel file html è 
+necessario utilizzare il # davanti al nome
+id che è stato assegnato, come in questo esempio
+*/
+
+.sottotitolo-1{
+    color: blue; 
+    border: 1px solid blue;
+    width: 50%;
+    height: 50px;
+    padding-left: 15px; /*sposto il contenuto di 15px verso destra*/
+}
