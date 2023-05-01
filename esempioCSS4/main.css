@@ -26,7 +26,7 @@
     width: 49%; /*solitamente non si utilizza la larghezza totale per evitare problemi di sovrapposizione
      con altri elementi inline-block o a capo per aver sforato la dimensione orizzontale della pagina in
      presenza di margini o padding*/
-    height: 100%;
+    height: 100%; /*imposto l'altezza al 100%*/
 }
 
 .seconda-colonna
