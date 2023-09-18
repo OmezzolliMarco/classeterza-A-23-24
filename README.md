@@ -1,4 +1,4 @@
-# Classe Terza 2023-2024
+# Classe Terza A 2023-2024
 
 In questo repository trovate gli esercizi svolti in classe ed eventuali soluzioni complete.
 
